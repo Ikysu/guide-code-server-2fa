@@ -1,4 +1,4 @@
-# [GUIDE] How to add simple 2fa on code-server by @coder
+# [GUIDE] How to add simple 2fa on code-server by coder
 1. Use gen.js to generate secret
 2. In your config.yaml add the option
 ```yaml
