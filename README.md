@@ -8,7 +8,10 @@ tfa: [YOUR_SERCET]
 4. Open "cli.js"
 5. After 161 lines, write:
 ```js
-tfa: {type: "string", description:"2fa secret key"}
+tfa: {
+      type: "string", 
+      description: "2fa secret key"
+}
 ```
 6. Save and open "login.js" in "routes" folder
 7. Require node-2fa (between lines 31-32)
