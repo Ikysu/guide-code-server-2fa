@@ -6,7 +6,7 @@ tfa: [YOUR_SERCET]
 ```
 3. Go to "/usr/lib/code-server/out/node/"
 4. Open "cli.js"
-5. After 161 lines, write:
+5. Add to const "options":
 ```js
 tfa: {
       type: "string", 
