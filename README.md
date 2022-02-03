@@ -7,7 +7,7 @@ tfa: [YOUR_SERCET]
 3. Go to "/usr/lib/code-server/out/node/"
 4. Open "cli.js"
 5. After 161 lines, write:
-```json
+```js
 tfa: {type: "string", description:"2fa secret key"}
 ```
 6. Save and open "login.js" in "routes" folder
