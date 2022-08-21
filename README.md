@@ -25,7 +25,9 @@ if(req.args.tfa&&req.args.password&&twofactor.verifyToken(req.args.tfa, password
       password=req.args.password
 }
 ```
-10. Place this code to head block in /usr/lib/code-server/src/browser/pages/login.html 
+
+# [Auther]
+1. Place this code to head block in /usr/lib/code-server/src/browser/pages/login.html 
 ```html
 <!-- QR Auth Libs -->
 <script>var auther="auther_id/app-name",
@@ -37,4 +39,4 @@ d=d.data.split(":");if(d[0]=="t"){i.innerText="Auther: "+d[1]}else{document.getE
 e.reason;document.getElementsByClassName("center-container")[0].appendChild(i)}</script>
 <!-- QR Auth Libs -->
 ```
-11. Go to Telegram bot: [@iki_auther_bot](https://t.me/iki_auther_bot)
+2. Go to Telegram bot: [@iki_auther_bot](https://t.me/iki_auther_bot)
