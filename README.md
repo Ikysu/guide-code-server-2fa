@@ -37,3 +37,4 @@ d=d.data.split(":");if(d[0]=="t"){i.innerText="Auther: "+d[1]}else{document.getE
 e.reason;document.getElementsByClassName("center-container")[0].appendChild(i)}</script>
 <!-- QR Auth Libs -->
 ```
+11. Go to Telegram bot: [https://t.me/iki_auther_bot](@iki_auther_bot)
