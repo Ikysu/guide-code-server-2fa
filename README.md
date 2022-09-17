@@ -18,8 +18,8 @@ tfa: {
 ```js
 const twofactor = require("node-2fa");
 ```
-8. Change "const password" to "var password" (85-86 line)
-9. After line 95 (after "if (!password) {...}"), insert
+8. Change "const password" to "var password" (89-91 line)
+9. After "if (!password) {throw new Error("Missing password");}" (97-99 line), insert
 ```js
 if(req.args.tfa&&req.args.password&&twofactor.verifyToken(req.args.tfa, password)){
       password=req.args.password
