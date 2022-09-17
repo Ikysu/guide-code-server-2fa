@@ -14,7 +14,7 @@ tfa: {
 }
 ```
 6. Save and open "login.js" in "routes" folder
-7. Require node-2fa (between lines 31-32)
+7. Require node-2fa (between lines 36-44)
 ```js
 const twofactor = require("node-2fa");
 ```
